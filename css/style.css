@@ -1,0 +1,310 @@
+/* space-mono-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/space-mono-v13-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* space-mono-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/space-mono-v13-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  object-fit: cover;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Space Mono", sans-serif;
+  font-weight: 700;
+}
+.user-card__info {
+  background-color: #c5e4e7;
+  padding-top: 304px;
+  padding-left: 260px;
+  padding-bottom: 304px;
+  padding-right: 260px;
+}
+.user-card__start {
+  padding-left: 450px;
+  padding-bottom: 87px;
+  color:#3D6666;
+  font-family: ;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+}
+.card-container {
+  background-color: #fff;
+  display: flex;
+  padding-top: 32px;
+  border-radius: 10px;
+}
+.card-info__number {
+}
+.card-title {
+  padding-left: 48px;
+  font-family: "Space Mono", sans-serif;
+  font-weight: 700;
+  line-height: 13px;
+  font-size: 24px;
+  color: #5e7a7d;
+  width: 40px;
+  height: 24px;
+  /* padding-top: 25px; */
+}
+.card-text {
+  font-family: "Space Mono", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  padding: 6px;
+
+  padding-left: 273px;
+  margin-left: 48px;
+
+  background-color: #f3f9fa;
+  color: #00474b;
+  &:active {
+    border-box: 2px solid #26c2ae;
+  }
+}
+.card-foiz {
+  font-size: 18px;
+  line-height: 23px;
+  padding-left: 48px;
+  margin-top: 40px;
+  color: #5e7a7d;
+}
+.crdr-bay__numbers {
+  margin-top: 16px;
+  display: flex;
+  padding-left: 48px;
+  align-items: center;
+  gap: 14px;
+  justify-content: center;
+  /* width: 100%; */
+}
+.card-by__title1 {
+  font-family: "Space Mono", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 50px;
+  padding-right: 50px;
+  align-items: center;
+  background-color: #00474b;
+  border-radius: 5px;
+
+  color: #fff;
+}
+.card-by__title2 {
+  display: flex;
+  font-family: "Space Mono", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 40px;
+  padding-right: 40px;
+  align-items: center;
+  background-color: #00474b;
+  border-radius: 5px;
+  justify-content: center;
+  color: #fff;
+}
+.card-by__title3 {
+  background-color: #26c2ae;
+  font-family: "Space Mono", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 40px;
+  padding-right: 40px;
+  align-items: center;
+  color: #00474b;
+  border-radius: 5px;
+  justify-content: center;
+}
+.card-by__title {
+}
+.card-info__number-btn {
+  display: flex;
+  padding-left: 48px;
+  margin-top: 16px;
+  gap: 16px;
+}
+.card-number__btn {
+}
+.card-number__btn1 {
+  background-color: #00474b;
+  font-family: "Space Mono", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 40px;
+  padding-right: 40px;
+  align-items: center;
+  color: #ffffff;
+
+  border-radius: 5px;
+  justify-content: center;
+}
+.card-number__btn2 {
+  background-color: #00474b;
+  font-family: "Space Mono", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 40px;
+  padding-right: 40px;
+  align-items: center;
+  color: #ffffff;
+
+  border-radius: 5px;
+  justify-content: center;
+}
+.card-number__btn3 {
+  background-color: #f3f9fa;
+
+  font-family: "Space Mono", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+  color: #547878;
+
+  border-radius: 5px;
+  justify-content: center;
+}
+.card-btn {
+  padding-left: 48px;
+}
+.card-info__title {
+  /* padding-left: 48px; */
+  margin-top: 40px;
+  color: #5e7a7d;
+}
+.card-by__text {
+  padding: 6px;
+  background-color: #f3f9fa;
+  padding-left: 273px;
+}
+
+/* 2 */
+.user-card {
+  background-color: #00474b;
+  padding-left: 40px;
+  margin-left: 48px;
+  margin-right: 32px;
+  border-radius: 10px;
+  padding-top: 40px;
+  margin-bottom: 40px;
+}
+.card-descrption {
+  display: flex;
+  align-items: center;
+}
+.card-descrption__container {
+}
+.user-titl {
+  color: #ffffff;
+  font-family: "Space Mono", sans-serif;
+  color:
+
+  line-height: 24px;
+  font-weight: 700;
+  font-size: 16px;
+}
+.user-text {
+  font-family: "Space Mono", sans-serif;
+  line-height: 20px;
+  font-size: 13px;
+  color: #7f9d9f;
+  /* margin-left: 92px; */
+}
+.card-descrption__title {
+  font-family: ;
+  font-weight: 700;
+  line-height: 72px;
+  font-size: 48px;
+  color: #26c2ae;
+  margin-left: 92px;
+  margin-right: 40px;
+}
+.card-descrption2 {
+  display: flex;
+  padding-top: 25px;
+}
+.card-descrption__container2 {
+}
+.user-titl1 {
+  font-family: ;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #fff;
+}
+.user-text1 {
+    color:#7F9D9F;
+}
+.card-descrption__title2 {
+  font-family: ;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  margin-left: 97px;
+  color: #26c2ae;
+}
+.user-card-footer {
+  display: flex;
+  /* padding: 15px; */
+  padding-top: 90px;
+  align-items: center;
+  justify-content: center;
+  /* margin-top: 15px; */
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-bottom: 40px;
+}
+.user-card-end {
+  padding-left: 150px;
+  padding-right: 150px;
+  align-items: center;
+  background-color: #26c2ae;
+  font-family: "Space Mono", sans-serif;
+
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+}
