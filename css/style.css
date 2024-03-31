@@ -77,7 +77,7 @@ body {
   line-height: 36px;
   padding: 6px;
 
-  padding-left: 273px;
+  /* padding-left: 273px; */
   margin-left: 48px;
 
   background-color: #f3f9fa;
@@ -109,29 +109,30 @@ body {
   line-height: 36px;
   padding-top: 6px;
   padding-bottom: 6px;
-  padding-left: 50px;
-  padding-right: 50px;
+  /* padding-left: 50px; */
+  /* padding-right: 50px; */
   align-items: center;
   background-color: #00474b;
   border-radius: 5px;
-
+width: 117px;
+height:48px ;
   color: #fff;
 }
 .card-by__title2 {
-  display: flex;
+  
   font-family: "Space Mono", sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 36px;
   padding-top: 6px;
   padding-bottom: 6px;
-  padding-left: 40px;
-  padding-right: 40px;
-  align-items: center;
+width: 117px;
+height: 48px;
+  
   background-color: #00474b;
   border-radius: 5px;
-  justify-content: center;
-  color: #fff;
+  
+  ;
 }
 .card-by__title3 {
   background-color: #26c2ae;
@@ -141,8 +142,8 @@ body {
   line-height: 36px;
   padding-top: 6px;
   padding-bottom: 6px;
-  padding-left: 40px;
-  padding-right: 40px;
+width: 117px;
+height: 48px;
   align-items: center;
   color: #00474b;
   border-radius: 5px;
@@ -166,13 +167,13 @@ body {
   line-height: 36px;
   padding-top: 6px;
   padding-bottom: 6px;
-  padding-left: 40px;
-  padding-right: 40px;
-  align-items: center;
+  
+width: 117px;
+height: 48px;
   color: #ffffff;
 
   border-radius: 5px;
-  justify-content: center;
+ 
 }
 .card-number__btn2 {
   background-color: #00474b;
@@ -182,8 +183,8 @@ body {
   line-height: 36px;
   padding-top: 6px;
   padding-bottom: 6px;
-  padding-left: 40px;
-  padding-right: 40px;
+ width: 117px;
+ height: 48px;
   align-items: center;
   color: #ffffff;
 
@@ -199,8 +200,8 @@ body {
   line-height: 36px;
   padding-top: 6px;
   padding-bottom: 6px;
-  padding-left: 20px;
-  padding-right: 20px;
+ width: 117px;
+ height: 48px;
   align-items: center;
   color: #547878;
 
@@ -218,7 +219,8 @@ body {
 .card-by__text {
   padding: 6px;
   background-color: #f3f9fa;
-  padding-left: 273px;
+ width: 379px;
+ height: 48px;
 }
 
 /* 2 */
